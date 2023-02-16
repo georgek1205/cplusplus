@@ -9,6 +9,10 @@ struct Node
     Node* next;
 };
 
+void append(Node*& head, int x);
+Node* initialize_list(string s);
+void print(Node* head);
+Node* merge(Node* head1, Node* head2);
 
 void append(Node*& head, int x)
 {
